@@ -1,2 +1,7 @@
 # sdn_shortest_path
-Shortest path experiment of SDN, using RYU as controller and mininet.
+
+To create mininet topo:
+`python fat_tree.py`
+
+To try Shortest.py:
+`ryu-manager Shortest.py --observe-links`
